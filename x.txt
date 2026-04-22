@@ -1,19 +1,25 @@
+# Voice Assistant using Python
 
-source venv/bin/activate      
-pip install pyttsx3 speechrecognition pyautogui opencv-python pyjokes requests beautifulsoup4 pywikihow PyPDF2 speedtest-cli pyobjc>=9.0.1
+## Setup Instructions (Windows)
 
+1. Install Python 3.11
 
+2. Install required libraries:
+   pip install pyttsx3 speechrecognition pyjokes pyaudio
 
+3. Run the project:
+   python assistant.py
 
+## Features
 
-# to run
+* Voice recognition
+* Text-to-speech output
+* Tell time
+* Open Google
+* Generate jokes
+* Set alarm using voice
 
-source venv/bin/activate
-python -m pip install pyttsx3 pyobjc==9.0.1
-python assistant_mac.py
+## Author
 
+Aashish Sharma
 
-
-# api
-
-ip: ipfy
